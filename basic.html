@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ss web</title>
+</head>
+<center>
+    <button><h2>javascript class</h2></button> <hr>
+<body>
+    
+    <style>
+        body{
+            background-color: rgb(58, 0, 16);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+    <script>
+        const person = {
+            firstName: "vijay" ,
+            lastName: "Anand",
+            id:"21TD0553",
+            fullName: function() {
+                return this.firstName + " " + this.lastName;
+                }
+            };
+            person.name = function(){
+                    return this.firstName + " " + this.lastName;
+            };
+            document.write(person.fullName() + "<br/>");
+            document.write("My best friend is " + person.name());    
+    </script>
+</center>
+</body>
+</html>
